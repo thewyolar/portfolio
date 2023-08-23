@@ -46,30 +46,6 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
 
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
-        <h3 class="text-lg text-neutral-100">Latest posts</h3>
-        <Link href="/posts" label="See all posts" isUnderline target="_self" />
-      </header>
-      {posts.length === 0 && <p>Soon, stay connected 👀...</p>}
-
-      <section class="flex flex-col gap-4 md:flex-row md:flex-wrap">
-        {
-          posts.length !== 0 &&
-            posts
-              .slice(0, 2)
-              .map((post) => (
-                <PostCard
-                  publishedAt={post.data.publishedAt}
-                  title={post.data.title}
-                  description={post.data.description}
-                  slug={post.slug}
-                />
-              ))
-        }
-      </section>
-    </article>
-
-    <article class="flex flex-col gap-8">
-      <header class="flex w-full flex-row justify-between gap-2">
         <h3 class="text-lg text-neutral-100">
           Selected projects ({projects.length})
         </h3>
@@ -82,6 +58,30 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
             projects.map((project) => <ProjectCard {...project} />)
         }
       </section>
+    </article>
+
+    <article class="flex flex-col gap-8">
+        <header class="flex w-full flex-row justify-between gap-2">
+            <h3 class="text-lg text-neutral-100">Latest posts</h3>
+            <Link href="/posts" label="See all posts" isUnderline target="_self" />
+        </header>
+      {posts.length === 0 && <p>Soon, stay connected 👀...</p>}
+
+        <section class="flex flex-col gap-4 md:flex-row md:flex-wrap">
+          {
+            posts.length !== 0 &&
+            posts
+              .slice(0, 2)
+              .map((post) => (
+                      <PostCard
+                              publishedAt={post.data.publishedAt}
+                              title={post.data.title}
+                              description={post.data.description}
+                              slug={post.slug}
+                      />
+              ))
+          }
+        </section>
     </article>
 
     <article class="flex flex-col gap-8">
