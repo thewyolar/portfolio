@@ -18,7 +18,7 @@ const projects: Project[] = [
     techs: ["Kotlin", "Jetpack Compose",],
     link: "/",
     isComingSoon: true,
-    description: "Mobile client for Unified Polyclinic Automation System (UPAS)",
+    description: "Mobile client for Unified Polyclinic Automation System",
   },
   {
     title: "PasteShare",
