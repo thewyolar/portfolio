@@ -7,21 +7,24 @@ export type Project = {
 
 const projects: Project[] = [
   {
-    title: "Unified Polyclinic Automation System. Backend",
+    title: "UPAS. Backend",
     techs: ["Java", "Spring Boot", "Docker"],
     link: "https://github.com/thewyolar/esap",
+    description: "Backend for Unified Polyclinic Automation System",
   },
   {
-    title: "Unified Polyclinic Automation System. Application",
+    title: "UPAS. Application",
     techs: ["Kotlin", "Jetpack Compose",],
     link: "/",
     isComingSoon: true,
+    description: "Mobile client for Unified Polyclinic Automation System (UPAS)",
   },
   {
     title: "PasteShare",
     techs: ["Java", "ReactJS (NextJS)", "TypeScript"],
     link: "/",
     isComingSoon: true,
+    description: "Simple clone of the pastebin.com",
   },
 ];
 
