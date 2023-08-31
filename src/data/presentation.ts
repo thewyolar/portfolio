@@ -25,6 +25,10 @@ const presentation: Presentation = {
     {
       label: "Telegram",
       link: "https://t.me/thewyolar"
+    },
+    {
+      label: "CV",
+      link: "/assets/cv.pdf"
     }
   ],
 };
