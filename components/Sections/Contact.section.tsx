@@ -4,10 +4,10 @@ import {
   BsSpotify,
   MdEmail,
   AiOutlineGithub,
-  AiOutlineTwitter,
 } from "../Misc/Icons.collection";
 
 import { Icon } from "../Misc/Icon.component";
+import {BsTelegram} from "react-icons/bs";
 
 const Contact: NextComponentType = () => {
   return (
@@ -15,18 +15,18 @@ const Contact: NextComponentType = () => {
       <p className="text-3xl font-bold text-white">Get in touch</p>
 
       <div className="my-8 flex flex-row justify-center gap-x-4">
-        <Icon icon={<AiOutlineGithub />} url="https://github.com/kr-anurag" />
+        <Icon icon={<AiOutlineGithub />} url="https://github.com/thewyolar" />
 
         <Icon
-          icon={<AiOutlineTwitter />}
-          url="https://twitter.com/imanuraglol"
+          icon={<BsTelegram />}
+          url="https://t.me/thewyolar"
         />
 
-        <Icon icon={<MdEmail />} url="mailto:kr.anurag24@gmail.com" />
+        <Icon icon={<MdEmail />} url="mailto:thewyolar@gmail.com" />
 
         <Icon
           icon={<BsSpotify />}
-          url="https://open.spotify.com/user/31l2fev6wn2mtzclbpvzxis3x77q"
+          url="https://open.spotify.com/user/31anzfysecowiu62ocqeqceusas4"
         />
       </div>
     </div>
