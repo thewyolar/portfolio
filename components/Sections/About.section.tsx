@@ -19,26 +19,24 @@ const About: NextComponentType = () => {
           my blog sometimes.
         </p>
 
-        <Link href="https://blog.anurag.tech" passHref>
-          <a
-            className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 duration-100 hover:ml-2"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read my Blog
-            <HiOutlineArrowNarrowRight />
-          </a>
+        <Link
+          href="https://blog.anurag.tech"
+          passHref
+          className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 duration-100 hover:ml-2"
+          target="_blank"
+          rel="noopener noreferrer">
+          Read my Blog<HiOutlineArrowNarrowRight />
+
         </Link>
 
-        <Link href="https://sponsor.anurag.tech" passHref>
-          <a
-            className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 duration-100 hover:ml-2"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Love my work? Sponsor me!
-            <HiOutlineArrowNarrowRight />
-          </a>
+        <Link
+          href="https://sponsor.anurag.tech"
+          passHref
+          className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 duration-100 hover:ml-2"
+          target="_blank"
+          rel="noopener noreferrer">
+          Love my work? Sponsor me!<HiOutlineArrowNarrowRight />
+
         </Link>
       </div>
 
