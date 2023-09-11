@@ -32,7 +32,7 @@ const Header: NextComponentType = () => {
       </p>
 
       <Link
-        href="https://github.com/kr-anurag/portfolio"
+        href="https://github.com/thewyolar/portfolio"
         passHref
         className="float-right mr-2 rounded-lg bg-zinc-800 p-2 text-2xl text-white ring-zinc-300 transition-all duration-150 hover:ring-2 sm:float-none sm:mr-0"
         target="_blank"
