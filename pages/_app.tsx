@@ -43,7 +43,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             "Hi, I'm Alexey! Backend developer and student.",
           images: [
             {
-              url: `${SITE_URL}/assests/avatar.png`,
+              url: `${SITE_URL}/assets/avatar.png`,
               width: 420,
               height: 420,
               alt: "thewyolar | Backend Developer",
