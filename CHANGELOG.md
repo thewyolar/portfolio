@@ -1,3 +1,17 @@
+# [0.5.0](https://github.com/thewyolar/portfolio/compare/v0.4.0...v0.5.0) (2023-09-12)
+
+
+### Bug Fixes
+
+* rename directory to assets ([30d03fb](https://github.com/thewyolar/portfolio/commit/30d03fbe1b39316649b407756a64086ae7ae1d37))
+
+
+### Features
+
+* add config file ([a8f8520](https://github.com/thewyolar/portfolio/commit/a8f8520458d62bee5af455e279304ec14da610ae))
+
+
+
 # [0.4.0](https://github.com/thewyolar/portfolio/compare/v0.3.0...v0.4.0) (2023-09-11)
 
 
