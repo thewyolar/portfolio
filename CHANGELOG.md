@@ -1,3 +1,17 @@
+# [0.6.0](https://github.com/thewyolar/portfolio/compare/v0.5.0...v0.6.0) (2023-09-12)
+
+
+### Bug Fixes
+
+* bug with missing illustration 404 ([12d008a](https://github.com/thewyolar/portfolio/commit/12d008af5e4ab0f2abcda775460ce20b10225112))
+
+
+### Features
+
+* add ru-en localization with next-i18next ([b342029](https://github.com/thewyolar/portfolio/commit/b342029e9aa66adc654ffd5fc0bd260e95f1f62c))
+
+
+
 # [0.5.0](https://github.com/thewyolar/portfolio/compare/v0.4.0...v0.5.0) (2023-09-12)
 
 
