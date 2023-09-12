@@ -11,6 +11,7 @@ import "@fontsource/sen/700.css";
 import { NextSeo } from "next-seo";
 import Head from "next/head";
 import Script from "next/script";
+import { SITE_URL } from "../data/config";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -36,14 +37,14 @@ function MyApp({ Component, pageProps }: AppProps) {
         defaultTitle="thewyolar | Backend Developer"
         description="Hi, I'm Alexey! Backend developer and student."
         openGraph={{
-          url: "https://thewyolar.vercel.app/",
+          url: `${SITE_URL}`,
           title: "thewyolar | Backend Developer",
           description:
             "Hi, I'm Alexey! Backend developer and student.",
           images: [
             {
-              url: "https://res.cloudinary.com/ddum5vpp3/image/upload/v1643532760/og-image_dwcwhp.png",
-              width: 800,
+              url: `${SITE_URL}/assests/avatar.png`,
+              width: 420,
               height: 420,
               alt: "thewyolar | Backend Developer",
             },
@@ -58,7 +59,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         ]}
       />
       <Head>
-        <link rel="icon" type="image/png" href="/assests/avatar.png" />
+        <link rel="icon" type="image/png" href="/assets/avatar.png" />
       </Head>
       <Component {...pageProps} />
     </>
