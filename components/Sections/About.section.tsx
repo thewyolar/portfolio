@@ -20,7 +20,7 @@ const About: NextComponentType = () => {
         </p>
 
         <Link
-          href="/assests/docs/cv.pdf"
+          href="/assets/docs/cv.pdf"
           passHref
           className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 duration-100 hover:ml-2"
           target="_blank"
@@ -32,7 +32,7 @@ const About: NextComponentType = () => {
 
       <div className="hidden custom:block">
         <Image
-          src="/assests/avatar.png"
+          src="/assets/avatar.png"
           width="112"
           height="112"
           className="rounded-full"
