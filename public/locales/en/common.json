@@ -1,0 +1,76 @@
+{
+  "title": "thewyolar | Backend Developer",
+  "description": "Hi, I'm Alexey! Backend developer and student.",
+  "header": {
+    "home": "Home",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "about": {
+    "greetings": "Hi, I'm Alexey",
+    "description1": "Backend developer and student",
+    "description2": "Java and Kotlin developer from Russia with a year of experience.",
+    "description3": "Currently actively studying Spring and Jetpack Compose.",
+    "cv": "My CV"
+  },
+  "skills": {
+    "title": "Skills & Uses",
+    "java": {
+      "name": "Java",
+      "description": "as my main language"
+    },
+    "spring": {
+      "name": "Spring",
+      "description": "as my backend framework"
+    },
+    "postgresql": {
+      "name": "PostgreSQL",
+      "description": "as my database"
+    },
+    "docker": {
+      "name": "Docker",
+      "description": "as my containerization tool"
+    },
+    "more": {
+      "common": "...more skills include",
+      "javascript": "javascript",
+      "reactjs": "reactjs",
+      "nextjs": "nextjs"
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "esap.backend": {
+      "title": "UPAS. Backend",
+      "techs": "Java, Spring Boot, Docker",
+      "description": "Backend for Unified Polyclinic Automation System",
+      "link": "https://github.com/thewyolar/esap",
+      "isComingSoon": false
+    },
+    "esap.application": {
+      "title": "UPAS. Application",
+      "techs": "Koltin, Jetpack Compose",
+      "description": "Mobile client for Unified Polyclinic Automation System",
+      "isComingSoon": true
+    },
+    "pasteshare": {
+      "title": "PasteShare",
+      "techs": "Java, Spring Boot, ReactJS(NextJS), TypeScript",
+      "description": "Simple clone of the pastebin.com",
+      "isComingSoon": true
+    },
+    "soon": "Soon"
+  },
+  "contact": "Get in touch",
+  "spotify": {
+    "yes": "I'm currently listening to",
+    "no": "I'm currently not listening to anything."
+  },
+  "error": {
+    "title": "Whoops! Lost in Space?",
+    "message1": "The page you're looking for isn't found :(",
+    "message2": "We suggest you back to home",
+    "buttonText": "Back to Home"
+  }
+}

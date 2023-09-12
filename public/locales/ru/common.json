@@ -1,0 +1,76 @@
+{
+  "title": "thewyolar | Бэкенд-разработчик",
+  "description": "Салют, я Алексей! Backend-разработчик и студент.",
+  "header": {
+    "home": "Главная",
+    "skills": "Навыки",
+    "projects": "Проекты",
+    "contact": "Контакты"
+  },
+  "about": {
+    "greetings": "Салют, я Алексей",
+    "description1": "Бэкенд-разработчик и студент",
+    "description2": "Java и Kotlin-разработчик из России с годом опыта.",
+    "description3": "В, настоящее время активно изучаю Spring и Jetpack Compose.",
+    "cv": "Резюме"
+  },
+  "skills": {
+    "title": "Навыки & Применение",
+    "java": {
+      "name": "Java",
+      "description": "в качестве основного языка"
+    },
+    "spring": {
+      "name": "Spring",
+      "description": "в качестве фреймворка для бэкенда"
+    },
+    "postgresql": {
+      "name": "PostgreSQL",
+      "description": "в качестве базы данных"
+    },
+    "docker": {
+      "name": "Docker",
+      "description": "в качестве инструмента контейнеризации"
+    },
+    "more": {
+      "common": "...дополнительные навыки также включают",
+      "javascript": "javascript",
+      "reactjs": "reactjs",
+      "nextjs": "nextjs"
+    }
+  },
+  "projects": {
+    "title": "Пет-проекты",
+    "esap.backend": {
+      "title": "ЕСАП. Backend",
+      "techs": "Java, Spring Boot, Docker",
+      "description": "Бэкенд для Единой Системы Автоматизации Поликлиник",
+      "link": "https://github.com/thewyolar/esap",
+      "isComingSoon": false
+    },
+    "esap.application": {
+      "title": "ЕСАП. Application",
+      "techs": "Koltin, Jetpack Compose",
+      "description": "Мобильный клиент для Единой Системы Автоматизации Поликлиник",
+      "isComingSoon": true
+    },
+    "pasteshare": {
+      "title": "PasteShare",
+      "techs": "Java, Spring Boot, ReactJS(NextJS), TypeScript",
+      "description": "Простой клон pastebin.com",
+      "isComingSoon": true
+    },
+    "soon": "Скоро"
+  },
+  "contact": "Связь со мной",
+  "spotify": {
+    "yes": "Сейчас я слушаю",
+    "no": "Сейчас я ничего не слушаю."
+  },
+  "error": {
+    "title": "Упс! Заблудились в космосе?",
+    "message1": "Страница, которую вы ищете, не найдена :(",
+    "message2": "Мы предлагаем вернуться на главную",
+    "buttonText": "На главную"
+  }
+}

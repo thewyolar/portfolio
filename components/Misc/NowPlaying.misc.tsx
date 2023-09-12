@@ -6,8 +6,10 @@ import Link from "next/link";
 
 import useSWR from "swr";
 import { fetcher } from "../../lib/fetcher";
+import {useTranslation} from "next-i18next";
 
 const SpotifyCard: NextComponentType = () => {
+  const { t } = useTranslation();
   const { data, error } = useSWR<NowPlayingSong>("/api/now-playing", fetcher);
 
   return <>
@@ -21,12 +23,12 @@ const SpotifyCard: NextComponentType = () => {
       {data?.isPlaying ? (
           <Link href={data?.songUrl} passHref legacyBehavior>
             <p className="cursor-pointer truncate">
-              I&apos;m currently listening to{" "}
+              {t('spotify.yes')}{" "}
               <span className="text-white">{data?.title}</span>.
             </p>
           </Link>
       ) : (
-          <p>I&apos;m currently not listening to anything.</p>
+          <p>{t('spotify.no')}</p>
       )}
     </div>
   </>;

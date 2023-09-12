@@ -1,17 +1,21 @@
 import React from 'react';
+import {useTranslation} from "next-i18next";
 
 type Props = {
   title: string;
-  techs: string[];
+  techs: string;
   link?: string;
   description: string;
   isComingSoon: boolean;
 };
 
-const formatTechs = (values: string[]) =>
-  values.join(' • ');
+const formatTechs = (values: string) => {
+  return values.split(',').map((tech) => tech.trim()).join(' • ');
+};
 
 const ProjectCard: React.FC<Props> = ({title, techs, link, description, isComingSoon}) => {
+  const { t } = useTranslation();
+
   return (
     <>
       {isComingSoon ? (
@@ -24,7 +28,7 @@ const ProjectCard: React.FC<Props> = ({title, techs, link, description, isComing
             <p className="text-slate-400">{description}</p>
           </div>
 
-          <p className="w-fit rounded-md bg-neutral-800 text-white text-lg px-4 py-1">Soon</p>
+          <p className="w-fit rounded-md bg-neutral-800 text-white text-lg px-4 py-1">{t('projects.soon')}</p>
         </div>
       ) : (
         <>

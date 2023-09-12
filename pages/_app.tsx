@@ -12,8 +12,20 @@ import { NextSeo } from "next-seo";
 import Head from "next/head";
 import Script from "next/script";
 import { SITE_URL } from "../data/config";
+import {appWithTranslation, useTranslation} from "next-i18next";
+import {serverSideTranslations} from "next-i18next/serverSideTranslations";
+
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['common'])),
+    },
+  }
+}
 
 function MyApp({ Component, pageProps }: AppProps) {
+  const { t } = useTranslation();
+
   return (
     <>
       <Script
@@ -32,9 +44,9 @@ function MyApp({ Component, pageProps }: AppProps) {
                 `}
       </Script>
       <NextSeo
-        title="thewyolar | Backend Developer"
-        titleTemplate="thewyolar | Backend Developer"
-        defaultTitle="thewyolar | Backend Developer"
+        title={t('title')}
+        titleTemplate={t('title')}
+        defaultTitle={t('title')}
         description="Hi, I'm Alexey! Backend developer and student."
         openGraph={{
           url: `${SITE_URL}`,
@@ -66,4 +78,4 @@ function MyApp({ Component, pageProps }: AppProps) {
   );
 }
 
-export default MyApp;
+export default appWithTranslation(MyApp);

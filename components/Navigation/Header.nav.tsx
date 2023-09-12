@@ -4,6 +4,7 @@ import Link from "next/link";
 import { VscGithubAlt } from "../Misc/Icons.collection";
 
 import type { linkProps } from "../../@types/prop.types";
+import {useTranslation} from "next-i18next";
 
 const TextLink: NextComponentType<NextPageContext, {}, linkProps> = ({
   text,
@@ -20,15 +21,17 @@ const TextLink: NextComponentType<NextPageContext, {}, linkProps> = ({
 };
 
 const Header: NextComponentType = () => {
+  const { t } = useTranslation();
+
   return (
     <header
       className={`font-jost py-8 sm:flex sm:flex-row sm:items-center sm:justify-between`}
     >
       <p className="hidden sm:flex sm:flex-row sm:gap-x-4">
-        <TextLink text="Home" url="#" />
-        <TextLink text="Skills" url="#skills" />
-        <TextLink text="Projects" url="#projects" />
-        <TextLink text="Contact" url="#contact" />
+        <TextLink text={t('header.home')} url="#" />
+        <TextLink text={t('header.skills')} url="#skills" />
+        <TextLink text={t('header.projects')} url="#projects" />
+        <TextLink text={t('header.contact')} url="#contact" />
       </p>
 
       <Link

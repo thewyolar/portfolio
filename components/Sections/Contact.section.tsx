@@ -8,11 +8,14 @@ import {
 
 import { Icon } from "../Misc/Icon.component";
 import {BsTelegram} from "react-icons/bs";
+import {useTranslation} from "next-i18next";
 
 const Contact: NextComponentType = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="px-3 font-sen" id="contact">
-      <p className="text-3xl font-bold text-white">Get in touch</p>
+      <p className="text-3xl font-bold text-white">{t('contact')}</p>
 
       <div className="my-8 flex flex-row justify-center gap-x-4">
         <Icon
