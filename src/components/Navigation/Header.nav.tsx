@@ -1,7 +1,7 @@
 import type { NextComponentType, NextPageContext } from "next";
 
 import Link from "next/link";
-import { VscGithubAlt } from "../Misc/Icons.collection";
+import { VscGithubAlt } from "react-icons/vsc";
 
 import type { linkProps } from "../../@types/prop.types";
 import {useTranslation} from "next-i18next";

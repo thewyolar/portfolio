@@ -3,7 +3,7 @@ import type { NextComponentType } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
-import { HiOutlineArrowNarrowRight } from "../Misc/Icons.collection";
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import {useTranslation} from "next-i18next";
 
 const About: NextComponentType = () => {

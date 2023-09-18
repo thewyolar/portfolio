@@ -1,4 +1,4 @@
-import { BsArrowRightShort } from "../Misc/Icons.collection";
+import { BsArrowRightShort } from "react-icons/bs";
 import {useTranslation} from "next-i18next";
 
 const Skills = () => {

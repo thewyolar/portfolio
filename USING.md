@@ -59,7 +59,7 @@ git push
 
 ### Bonus ⭐
 
-This portfolio template contain a Spotify Card component [here](./components/Misc/Spotify.card.tsx) which shows the current streaming song on spotify.
+This portfolio template contain a Spotify Card component [here](src/components/Misc/Spotify.card.tsx) which shows the current streaming song on spotify.
 
 **Example:**
 
