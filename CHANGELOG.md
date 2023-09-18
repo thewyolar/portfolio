@@ -1,3 +1,12 @@
+# [0.7.0](https://github.com/thewyolar/portfolio/compare/v0.6.0...v0.7.0) (2023-09-18)
+
+
+### Features
+
+* add artist to component for display now playing misc ([024388f](https://github.com/thewyolar/portfolio/commit/024388f3a22190f80f3030cf5fabf00b3af115d4))
+
+
+
 # [0.6.0](https://github.com/thewyolar/portfolio/compare/v0.5.0...v0.6.0) (2023-09-12)
 
 
