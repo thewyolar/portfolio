@@ -65,6 +65,7 @@
   "contact": "Get in touch",
   "spotify": {
     "yes": "I'm currently listening to",
+    "by": "by",
     "no": "I'm currently not listening to anything."
   },
   "error": {
