@@ -14,6 +14,7 @@ import Script from "next/script";
 import { SITE_URL } from "../data/config";
 import {appWithTranslation, useTranslation} from "next-i18next";
 import {serverSideTranslations} from "next-i18next/serverSideTranslations";
+import {Analytics} from '@vercel/analytics/react';
 
 export async function getStaticProps({ locale }) {
   return {
@@ -74,6 +75,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" type="image/png" href="/assets/avatar.png" />
       </Head>
       <Component {...pageProps} />
+      <Analytics />
     </>
   );
 }
