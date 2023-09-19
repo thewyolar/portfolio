@@ -19,8 +19,8 @@ const SpotifyCard: NextComponentType = () => {
           <Image
             src="/assets/spotify.svg"
             alt="spotify icon"
-            layout="fill"
-          />
+            fill
+            sizes="100vw" />
         </div>
         {data?.isPlaying ? (
           <Link href={data?.songUrl} passHref legacyBehavior>

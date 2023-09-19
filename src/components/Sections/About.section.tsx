@@ -40,7 +40,10 @@ const About: NextComponentType = () => {
           height="112"
           className="rounded-full"
           alt="avatar"
-        />
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }} />
       </div>
     </div>
   );
