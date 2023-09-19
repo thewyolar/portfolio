@@ -1,3 +1,12 @@
+# [0.9.0](https://github.com/thewyolar/portfolio/compare/v0.8.0...v0.9.0) (2023-09-19)
+
+
+### Features
+
+* add animated track icon ([f20e26c](https://github.com/thewyolar/portfolio/commit/f20e26c8225c020928cb7004f5b2ba7301a46011))
+
+
+
 # [0.8.0](https://github.com/thewyolar/portfolio/compare/v0.7.0...v0.8.0) (2023-09-18)
 
 
@@ -41,15 +50,6 @@
 ### Features
 
 * add config file ([a8f8520](https://github.com/thewyolar/portfolio/commit/a8f8520458d62bee5af455e279304ec14da610ae))
-
-
-
-# [0.4.0](https://github.com/thewyolar/portfolio/compare/v0.3.0...v0.4.0) (2023-09-11)
-
-
-### Features
-
-* create dependabot.yml ([a27d688](https://github.com/thewyolar/portfolio/commit/a27d688120fc8fd1daa0dee8ab1c6133233ee454))
 
 
 
