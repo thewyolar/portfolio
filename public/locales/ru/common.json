@@ -50,7 +50,7 @@
     },
     "esap.application": {
       "title": "ЕСАП. Application",
-      "techs": "Koltin, Jetpack Compose",
+      "techs": "Kotlin, Jetpack Compose",
       "description": "Мобильный клиент для Единой Системы Автоматизации Поликлиник",
       "isComingSoon": true
     },

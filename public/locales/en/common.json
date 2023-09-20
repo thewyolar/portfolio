@@ -50,7 +50,7 @@
     },
     "esap.application": {
       "title": "UPAS. Application",
-      "techs": "Koltin, Jetpack Compose",
+      "techs": "Kotlin, Jetpack Compose",
       "description": "Mobile client for Unified Polyclinic Automation System",
       "isComingSoon": true
     },
