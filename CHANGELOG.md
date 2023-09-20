@@ -1,3 +1,12 @@
+## [0.9.1](https://github.com/thewyolar/portfolio/compare/v0.9.0...v0.9.1) (2023-09-20)
+
+
+### Bug Fixes
+
+* bug with "Kotlin" label ([cc2abe7](https://github.com/thewyolar/portfolio/commit/cc2abe721ea7683840bd468a3916bd714ad40943))
+
+
+
 # [0.9.0](https://github.com/thewyolar/portfolio/compare/v0.8.0...v0.9.0) (2023-09-19)
 
 
@@ -36,20 +45,6 @@
 ### Features
 
 * add ru-en localization with next-i18next ([b342029](https://github.com/thewyolar/portfolio/commit/b342029e9aa66adc654ffd5fc0bd260e95f1f62c))
-
-
-
-# [0.5.0](https://github.com/thewyolar/portfolio/compare/v0.4.0...v0.5.0) (2023-09-12)
-
-
-### Bug Fixes
-
-* rename directory to assets ([30d03fb](https://github.com/thewyolar/portfolio/commit/30d03fbe1b39316649b407756a64086ae7ae1d37))
-
-
-### Features
-
-* add config file ([a8f8520](https://github.com/thewyolar/portfolio/commit/a8f8520458d62bee5af455e279304ec14da610ae))
 
 
 
