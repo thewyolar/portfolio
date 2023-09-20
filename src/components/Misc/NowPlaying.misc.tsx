@@ -12,7 +12,7 @@ import {Audio} from "react-loader-spinner";
 const SpotifyCard: NextComponentType = () => {
   const { t } = useTranslation();
   const { data, error } = useSWR<NowPlayingSong>("/api/now-playing", fetcher, {
-    refreshInterval: 30000,
+    refreshInterval: 1000,
   });
 
   return (
