@@ -33,7 +33,7 @@
     "commitlint": "^17.7.1",
     "commitlint-config-gitmoji": "^2.3.1",
     "eslint": "8.49.0",
-    "eslint-config-next": "13.4.19",
+    "eslint-config-next": "13.5.4",
     "husky": "^8.0.3",
     "postcss": "^8.4.29",
     "prettier": "^3.0.3",
