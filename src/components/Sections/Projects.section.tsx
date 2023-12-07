@@ -18,10 +18,18 @@ const Projects: NextComponentType = () => {
           isComingSoon={JSON.parse(t('projects.esap.backend.isComingSoon'))} />
 
         <ProjectCard
-          title={t('projects.esap.application.title')}
-          techs={t('projects.esap.application.techs')}
-          description={t('projects.esap.application.description')}
-          isComingSoon={JSON.parse(t('projects.esap.application.isComingSoon'))} />
+          title={t('projects.esap.frontend.title')}
+          techs={t('projects.esap.frontend.techs')}
+          description={t('projects.esap.frontend.description')}
+          link={t('projects.esap.frontend.link')}
+          isComingSoon={JSON.parse(t('projects.esap.frontend.isComingSoon'))} />
+
+        <ProjectCard
+          title={t('projects.esap.mobile.title')}
+          techs={t('projects.esap.mobile.techs')}
+          description={t('projects.esap.mobile.description')}
+          link={t('projects.esap.mobile.link')}
+          isComingSoon={JSON.parse(t('projects.esap.mobile.isComingSoon'))} />
 
         <ProjectCard
           title={t('projects.pasteshare.title')}

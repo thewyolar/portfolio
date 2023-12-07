@@ -45,14 +45,22 @@
       "title": "UPAS. Backend",
       "techs": "Java, Spring Boot, Docker",
       "description": "Backend for Unified Polyclinic Automation System",
-      "link": "https://github.com/thewyolar/esap",
+      "link": "https://github.com/esap-mis/backend",
       "isComingSoon": false
     },
-    "esap.application": {
+    "esap.frontend": {
+      "title": "UPAS. Frontend",
+      "techs": "TypeScript, ReactJS, NextJS, Docker",
+      "description": "Frontend for Unified Polyclinic Automation System",
+      "link": "https://github.com/esap-mis/frontend",
+      "isComingSoon": false
+    },
+    "esap.mobile": {
       "title": "UPAS. Application",
-      "techs": "Kotlin, Jetpack Compose",
+      "techs": "Koltin, Jetpack Compose",
       "description": "Mobile client for Unified Polyclinic Automation System",
-      "isComingSoon": true
+      "link": "https://github.com/esap-mis/mobile",
+      "isComingSoon": false
     },
     "pasteshare": {
       "title": "PasteShare",
@@ -65,7 +73,6 @@
   "contact": "Get in touch",
   "spotify": {
     "yes": "I'm currently listening to",
-    "by": "by",
     "no": "I'm currently not listening to anything."
   },
   "error": {

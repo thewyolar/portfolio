@@ -45,14 +45,22 @@
       "title": "ЕСАП. Backend",
       "techs": "Java, Spring Boot, Docker",
       "description": "Бэкенд для Единой Системы Автоматизации Поликлиник",
-      "link": "https://github.com/thewyolar/esap",
+      "link": "https://github.com/esap-mis/backend",
       "isComingSoon": false
     },
-    "esap.application": {
-      "title": "ЕСАП. Application",
-      "techs": "Kotlin, Jetpack Compose",
+    "esap.frontend": {
+      "title": "ЕСАП. Frontend",
+      "techs": "TypeScript, ReactJS, NextJS, Docker",
+      "description": "Фронтэнд для Единой Системы Автоматизации Поликлиник",
+      "link": "https://github.com/esap-mis/frontend",
+      "isComingSoon": false
+    },
+    "esap.mobile": {
+      "title": "ЕСАП. Mobile",
+      "techs": "Koltin, Jetpack Compose",
       "description": "Мобильный клиент для Единой Системы Автоматизации Поликлиник",
-      "isComingSoon": true
+      "link": "https://github.com/esap-mis/mobile",
+      "isComingSoon": false
     },
     "pasteshare": {
       "title": "PasteShare",
@@ -65,7 +73,6 @@
   "contact": "Связь со мной",
   "spotify": {
     "yes": "Сейчас я слушаю",
-    "by": "от",
     "no": "Сейчас я ничего не слушаю."
   },
   "error": {
