@@ -42,22 +42,22 @@
   "projects": {
     "title": "Featured Projects",
     "esap.backend": {
-      "title": "UPAS. Backend",
+      "title": "ESAP. Backend",
       "techs": "Java, Spring Boot, Docker",
       "description": "Backend for Unified Polyclinic Automation System",
       "link": "https://github.com/esap-mis/backend",
       "isComingSoon": false
     },
     "esap.frontend": {
-      "title": "UPAS. Frontend",
+      "title": "ESAP. Frontend",
       "techs": "TypeScript, ReactJS, NextJS, Docker",
       "description": "Frontend for Unified Polyclinic Automation System",
       "link": "https://github.com/esap-mis/frontend",
       "isComingSoon": false
     },
     "esap.mobile": {
-      "title": "UPAS. Application",
-      "techs": "Koltin, Jetpack Compose",
+      "title": "ESAP. Application",
+      "techs": "Kotlin, Jetpack Compose",
       "description": "Mobile client for Unified Polyclinic Automation System",
       "link": "https://github.com/esap-mis/mobile",
       "isComingSoon": false
