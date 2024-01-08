@@ -13,7 +13,7 @@
     "@fontsource/sen": "^5.0.12",
     "@types/node": "^20.6.5",
     "@vercel/analytics": "^1.0.2",
-    "axios": "^1.5.0",
+    "axios": "^1.6.5",
     "i18next": "^23.5.1",
     "next": "13.5.4",
     "next-i18next": "^14.0.3",
