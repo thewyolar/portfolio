@@ -1,3 +1,12 @@
+# [0.10.0](https://github.com/thewyolar/portfolio/compare/v0.9.1...v0.10.0) (2024-02-08)
+
+
+### Features
+
+* add icons to tags ([b72f0ab](https://github.com/thewyolar/portfolio/commit/b72f0ab97a4a2a328b3a4bb47875439d10e7396c))
+
+
+
 ## [0.9.1](https://github.com/thewyolar/portfolio/compare/v0.9.0...v0.9.1) (2023-09-20)
 
 
@@ -31,20 +40,6 @@
 ### Features
 
 * add artist to component for display now playing misc ([024388f](https://github.com/thewyolar/portfolio/commit/024388f3a22190f80f3030cf5fabf00b3af115d4))
-
-
-
-# [0.6.0](https://github.com/thewyolar/portfolio/compare/v0.5.0...v0.6.0) (2023-09-12)
-
-
-### Bug Fixes
-
-* bug with missing illustration 404 ([12d008a](https://github.com/thewyolar/portfolio/commit/12d008af5e4ab0f2abcda775460ce20b10225112))
-
-
-### Features
-
-* add ru-en localization with next-i18next ([b342029](https://github.com/thewyolar/portfolio/commit/b342029e9aa66adc654ffd5fc0bd260e95f1f62c))
 
 
 
