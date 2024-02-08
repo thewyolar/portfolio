@@ -77,8 +77,7 @@
   },
   "error": {
     "title": "Whoops! Lost in Space?",
-    "message1": "The page you're looking for isn't found :(",
-    "message2": "We suggest you back to home",
-    "buttonText": "Back to Home"
+    "message": "The page you're looking for isn't found \uD83D\uDE15",
+    "buttonText": "Come back!"
   }
 }

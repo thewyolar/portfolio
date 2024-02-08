@@ -18,7 +18,7 @@ const ErrorPage: NextPage = () => {
   const router = useRouter();
 
   return <>
-    <div className="flex min-h-screen min-w-full flex-col justify-center bg-[#fafdfe]">
+    <div className="flex min-h-screen min-w-full flex-col justify-center bg-[#18181b]">
       <Image
         src="/assets/404.svg"
         width="800"
@@ -30,12 +30,11 @@ const ErrorPage: NextPage = () => {
         }} />
 
       <div className="flex w-full flex-col items-center justify-center">
-        <p className="font-jost text-2xl font-bold text-gray-800 sm:text-3xl">
+        <p className="font-jost text-2xl font-bold text-gray-200 sm:text-3xl">
           {t('error.title')}
         </p>
-        <p className="text-md text-center font-sen font-medium text-gray-700 sm:text-lg">
-          {t('error.message1')} <br />
-          {t('error.message2')}
+        <p className="text-md text-center font-sen font-medium text-gray-500 sm:text-lg">
+          {t('error.message')}
         </p>
 
         <button
