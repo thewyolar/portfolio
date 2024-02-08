@@ -60,7 +60,7 @@
       },
       {
         "title": "ЕСАП. Mobile",
-        "tags": [ "Kotlin", "Jetpack Compose" ],
+        "tags": [ "Android", "Kotlin", "Jetpack Compose" ],
         "description": "Мобильный клиент для Единой Системы Автоматизации Поликлиник",
         "link": "https://github.com/esap-mis/mobile",
         "isComingSoon": false

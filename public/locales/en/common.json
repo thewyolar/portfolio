@@ -59,8 +59,8 @@
         "isComingSoon": false
       },
       {
-        "title": "ESAP. Application",
-        "tags": [ "Kotlin", "Jetpack Compose" ],
+        "title": "ESAP. Mobile",
+        "tags": [ "Android", "Kotlin", "Jetpack Compose" ],
         "description": "Mobile client for Unified Polyclinic Automation System",
         "link": "https://github.com/esap-mis/mobile",
         "isComingSoon": false

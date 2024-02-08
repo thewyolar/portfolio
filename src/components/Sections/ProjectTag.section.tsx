@@ -1,6 +1,6 @@
 import React from "react";
 import Icon from "@mdi/react";
-import {mdiDatabase, mdiDocker, mdiLanguageJava, mdiLanguageKotlin, mdiLanguageTypescript} from "@mdi/js";
+import {mdiAndroid, mdiDatabase, mdiDocker, mdiLanguageJava, mdiLanguageKotlin, mdiLanguageTypescript} from "@mdi/js";
 
 type Props = {
   tag: string;
@@ -12,6 +12,7 @@ const names = {
   "PostgreSQL": mdiDatabase,
   "Docker": mdiDocker,
   "TypeScript": mdiLanguageTypescript,
+  "Android": mdiAndroid
 };
 
 const ProjectTag: React.FC<Props> = ({tag}) => {
