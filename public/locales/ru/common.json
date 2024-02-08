@@ -41,33 +41,35 @@
   },
   "projects": {
     "title": "Пет-проекты",
-    "esap.backend": {
-      "title": "ЕСАП. Backend",
-      "techs": "Java, Spring Boot, Docker",
-      "description": "Бэкенд для Единой Системы Автоматизации Поликлиник",
-      "link": "https://github.com/esap-mis/backend",
-      "isComingSoon": false
-    },
-    "esap.frontend": {
-      "title": "ЕСАП. Frontend",
-      "techs": "TypeScript, ReactJS, NextJS, Docker",
-      "description": "Фронтэнд для Единой Системы Автоматизации Поликлиник",
-      "link": "https://github.com/esap-mis/frontend",
-      "isComingSoon": false
-    },
-    "esap.mobile": {
-      "title": "ЕСАП. Mobile",
-      "techs": "Kotlin, Jetpack Compose",
-      "description": "Мобильный клиент для Единой Системы Автоматизации Поликлиник",
-      "link": "https://github.com/esap-mis/mobile",
-      "isComingSoon": false
-    },
-    "pasteshare": {
-      "title": "PasteShare",
-      "techs": "Java, Spring Boot, ReactJS(NextJS), TypeScript",
-      "description": "Простой клон pastebin.com",
-      "isComingSoon": true
-    },
+    "data": [
+      {
+        "title": "ЕСАП. Backend",
+        "tags": [ "Java", "Spring Boot", "PostgreSQL", "Docker" ],
+        "description": "Бэкенд для Единой Системы Автоматизации Поликлиник",
+        "link": "https://github.com/esap-mis/backend",
+        "isComingSoon": false
+      },
+      {
+        "title": "ЕСАП. Frontend",
+        "tags": [ "TypeScript", "Next JS", "Docker" ],
+        "description": "Фронтэнд для Единой Системы Автоматизации Поликлиник",
+        "link": "https://github.com/esap-mis/frontend",
+        "isComingSoon": false
+      },
+      {
+        "title": "ЕСАП. Mobile",
+        "tags": [ "Kotlin", "Jetpack Compose" ],
+        "description": "Мобильный клиент для Единой Системы Автоматизации Поликлиник",
+        "link": "https://github.com/esap-mis/mobile",
+        "isComingSoon": false
+      },
+      {
+        "title": "PasteShare",
+        "tags": [ "Java", "Spring Boot", "TypeScript", "Next JS" ],
+        "description": "Простой клон pastebin.com",
+        "isComingSoon": true
+      }
+    ],
     "soon": "Скоро"
   },
   "contact": "Связь со мной",

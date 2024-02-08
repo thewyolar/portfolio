@@ -1,19 +1,16 @@
 import React from 'react';
 import {useTranslation} from "next-i18next";
+import ProjectTag from "./ProjectTag.section";
 
 type Props = {
   title: string;
-  techs: string;
+  tags: string[];
   link?: string;
   description: string;
   isComingSoon: boolean;
 };
 
-const formatTechs = (values: string) => {
-  return values.split(',').map((tech) => tech.trim()).join(' • ');
-};
-
-const ProjectCard: React.FC<Props> = ({title, techs, link, description, isComingSoon}) => {
+const ProjectCard: React.FC<Props> = ({title, tags, link, description, isComingSoon}) => {
   const { t } = useTranslation();
 
   return (
@@ -23,7 +20,9 @@ const ProjectCard: React.FC<Props> = ({title, techs, link, description, isComing
           <div className="flex flex-col gap-2">
             <div className="flex gap-4 sm:flex-col md:flex-row">
               <p className="text-white text-xl">{title}</p>
-              <p className="text-slate-400 text-lg">{formatTechs(techs)}</p>
+              <div className="sm:flex sm:flex-row sm:justify-between">
+                {tags.map((tag: string, index: number) => <ProjectTag key={index} tag={tag}/>)}
+              </div>
             </div>
             <p className="text-slate-400">{description}</p>
           </div>
@@ -42,7 +41,9 @@ const ProjectCard: React.FC<Props> = ({title, techs, link, description, isComing
               <div className="flex flex-col gap-2">
                 <div className="flex gap-4 sm:flex-col md:flex-row">
                   <p className="text-white text-xl">{title}</p>
-                  <p className="text-slate-400 text-lg">{formatTechs(techs)}</p>
+                  <div className="sm:flex sm:flex-row sm:justify-between">
+                    {tags.map((tag) => <ProjectTag key={title} tag={tag}/>)}
+                  </div>
                 </div>
                 <p className="text-slate-400">{description}</p>
               </div>

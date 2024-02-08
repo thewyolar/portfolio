@@ -41,33 +41,35 @@
   },
   "projects": {
     "title": "Featured Projects",
-    "esap.backend": {
-      "title": "ESAP. Backend",
-      "techs": "Java, Spring Boot, Docker",
-      "description": "Backend for Unified Polyclinic Automation System",
-      "link": "https://github.com/esap-mis/backend",
-      "isComingSoon": false
-    },
-    "esap.frontend": {
-      "title": "ESAP. Frontend",
-      "techs": "TypeScript, ReactJS, NextJS, Docker",
-      "description": "Frontend for Unified Polyclinic Automation System",
-      "link": "https://github.com/esap-mis/frontend",
-      "isComingSoon": false
-    },
-    "esap.mobile": {
-      "title": "ESAP. Application",
-      "techs": "Kotlin, Jetpack Compose",
-      "description": "Mobile client for Unified Polyclinic Automation System",
-      "link": "https://github.com/esap-mis/mobile",
-      "isComingSoon": false
-    },
-    "pasteshare": {
-      "title": "PasteShare",
-      "techs": "Java, Spring Boot, ReactJS(NextJS), TypeScript",
-      "description": "Simple clone of the pastebin.com",
-      "isComingSoon": true
-    },
+    "data": [
+      {
+        "title": "ESAP. Backend",
+        "tags": [ "Java", "Spring Boot", "PostgreSQL", "Docker" ],
+        "description": "Backend for Unified Polyclinic Automation System",
+        "link": "https://github.com/esap-mis/backend",
+        "isComingSoon": false
+      },
+      {
+        "title": "ESAP. Frontend",
+        "tags": [ "TypeScript", "Next JS", "Docker" ],
+        "description": "Frontend for Unified Polyclinic Automation System",
+        "link": "https://github.com/esap-mis/frontend",
+        "isComingSoon": false
+      },
+      {
+        "title": "ESAP. Application",
+        "tags": [ "Kotlin", "Jetpack Compose" ],
+        "description": "Mobile client for Unified Polyclinic Automation System",
+        "link": "https://github.com/esap-mis/mobile",
+        "isComingSoon": false
+      },
+      {
+        "title": "PasteShare",
+        "tags": [ "Java", "Spring Boot", "TypeScript", "Next JS" ],
+        "description": "Simple clone of the pastebin.com",
+        "isComingSoon": true
+      }
+    ],
     "soon": "Soon"
   },
   "contact": "Get in touch",

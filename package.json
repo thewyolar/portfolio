@@ -11,6 +11,8 @@
   "dependencies": {
     "@fontsource/jost": "^5.0.8",
     "@fontsource/sen": "^5.0.12",
+    "@mdi/js": "^7.4.47",
+    "@mdi/react": "^1.6.1",
     "@types/node": "^20.6.5",
     "@vercel/analytics": "^1.0.2",
     "axios": "^1.6.5",
