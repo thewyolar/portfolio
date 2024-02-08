@@ -16,22 +16,24 @@
   },
   "skills": {
     "title": "Навыки & Применение",
-    "java": {
-      "name": "Java",
-      "description": "в качестве основного языка"
-    },
-    "spring": {
-      "name": "Spring",
-      "description": "в качестве фреймворка для бэкенда"
-    },
-    "postgresql": {
-      "name": "PostgreSQL",
-      "description": "в качестве базы данных"
-    },
-    "docker": {
-      "name": "Docker",
-      "description": "в качестве инструмента контейнеризации"
-    },
+    "data": [
+      {
+        "name": "Java",
+        "description": "в качестве основного языка"
+      },
+      {
+        "name": "Spring",
+        "description": "в качестве фреймворка для бэкенда"
+      },
+      {
+        "name": "PostgreSQL",
+        "description": "в качестве базы данных"
+      },
+      {
+        "name": "Docker",
+        "description": "в качестве инструмента контейнеризации"
+      }
+    ],
     "more": {
       "common": "...дополнительные навыки также включают",
       "javascript": "javascript",
