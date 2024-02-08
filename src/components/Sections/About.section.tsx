@@ -5,6 +5,8 @@ import Link from "next/link";
 
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import {useTranslation} from "next-i18next";
+import {mdiPaperclip} from "@mdi/js";
+import Icon from "@mdi/react";
 
 const About: NextComponentType = () => {
   const { t } = useTranslation();
@@ -28,8 +30,11 @@ const About: NextComponentType = () => {
           className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 duration-100 hover:ml-2"
           target="_blank"
           rel="noopener noreferrer">
-          {t('about.cv')}<HiOutlineArrowNarrowRight />
-
+            <span className="flex flex-row">
+              <Icon path={mdiPaperclip} size={1} />
+              {t('about.cv')}
+            </span>
+            <HiOutlineArrowNarrowRight />
         </Link>
       </div>
 
