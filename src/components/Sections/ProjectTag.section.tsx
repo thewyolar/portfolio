@@ -7,22 +7,22 @@ type Props = {
   tag: string;
 };
 
-const names: Record<string, React.ReactNode> = {
-  "Java": <FaJava color="white" className="h-5" />,
-  "Kotlin": <SiKotlin color="white" className="h-5" />,
-  "PostgreSQL": <FaDatabase color="white" className="h-5" />,
-  "Docker": <FaDocker color="white" className="h-5"/>,
-  "TypeScript": <SiTypescript color="white" className="h-5" />,
-  "Android": <SiAndroid color="white" className="h-5" />,
-  "Spring Boot": <SiSpring color="white" className="h-5" />,
-  "Jetpack Compose": <SiJetpackcompose color="white" className="h-5" />,
-  "Next JS": <TbBrandNextjs color="white" className="h-5" />
-};
-
 const ProjectTag: React.FC<Props> = ({ tag }) => {
+  const icons: Record<string, React.ReactNode> = {
+    "Java": <FaJava color="white" className="h-5" />,
+    "Kotlin": <SiKotlin color="white" className="h-5" />,
+    "PostgreSQL": <FaDatabase color="white" className="h-5" />,
+    "Docker": <FaDocker color="white" className="h-5"/>,
+    "TypeScript": <SiTypescript color="white" className="h-5" />,
+    "Android": <SiAndroid color="white" className="h-5" />,
+    "Spring Boot": <SiSpring color="white" className="h-5" />,
+    "Jetpack Compose": <SiJetpackcompose color="white" className="h-5" />,
+    "Next JS": <TbBrandNextjs color="white" className="h-5" />
+  };
+
   return (
     <span className="tag">
-      {names[tag] && names[tag]}
+      {icons[tag] && icons[tag]}
       <p className="text-slate-400 text-base">{tag}</p>
     </span>
   );
