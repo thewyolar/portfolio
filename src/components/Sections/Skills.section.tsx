@@ -8,7 +8,7 @@ type Skill = {
 
 const Skills = () => {
   const { t } = useTranslation();
-
+  const more: string[] = Object.values(t('skills.more.data', { returnObjects: true })).map(value => String(value));
   const data: Skill[] = Object.values(t('skills.data', { returnObjects: true })).map((skill: Skill) => ({
     name: skill.name,
     description: skill.description,
@@ -29,9 +29,10 @@ const Skills = () => {
       </div>
 
       <p className="text-lg font-medium text-slate-300">
-        {t('skills.more.common')} <span className="text-white">{t('skills.more.javascript')}</span>,{" "}
-        <span className="text-white">{t('skills.more.reactjs')}</span>,{" "}
-        <span className="text-white">{t('skills.more.nextjs')}</span>
+        {t('skills.more.common')}{" "}
+        {more.map((skill: string, index: number) => (
+          <span key={skill} className="text-white">{skill}{index !== more.length - 1 && ", "}</span>
+        ))}
       </p>
     </div>
   );

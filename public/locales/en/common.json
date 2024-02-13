@@ -36,9 +36,7 @@
     ],
     "more": {
       "common": "...more skills include",
-      "javascript": "javascript",
-      "reactjs": "reactjs",
-      "nextjs": "nextjs"
+      "data": [ "kotlin", "jetpack compose", "javascript", "reactjs", "nextjs" ]
     }
   },
   "projects": {
@@ -63,6 +61,13 @@
         "tags": [ "Android", "Kotlin", "Jetpack Compose" ],
         "description": "Mobile client for Unified Polyclinic Automation System",
         "link": "https://github.com/esap-mis/mobile",
+        "isComingSoon": false
+      },
+      {
+        "title": "WordleFX",
+        "tags": [ "Java", "JavaFX" ],
+        "description": "A simple implementation of Wordle browser game as a desktop application",
+        "link": "https://github.com/thewyolar/WordleFX",
         "isComingSoon": false
       },
       {
