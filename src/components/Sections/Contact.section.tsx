@@ -7,7 +7,7 @@ import {
 } from "../Misc/Icons.collection";
 
 import { Icon } from "../Misc/Icon.component";
-import {BsTelegram} from "react-icons/bs";
+import {BsLinkedin, BsTelegram} from "react-icons/bs";
 import {useTranslation} from "next-i18next";
 
 const Contact: NextComponentType = () => {
@@ -33,6 +33,10 @@ const Contact: NextComponentType = () => {
         <Icon
           icon={<BsSpotify />}
           url="https://open.spotify.com/user/31anzfysecowiu62ocqeqceusas4" />
+
+        <Icon
+          icon={<BsLinkedin />}
+          url="https://www.linkedin.com/in/%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9-%D0%BA%D0%B0%D1%80%D0%B0%D0%B1%D0%B0%D0%BD%D0%BE%D0%B2-875014298/" />
       </div>
     </div>
   );
