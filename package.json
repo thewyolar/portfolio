@@ -15,7 +15,7 @@
     "@mdi/react": "^1.6.1",
     "@types/node": "^20.6.5",
     "@vercel/analytics": "^1.0.2",
-    "axios": "^1.6.5",
+    "axios": "^1.7.2",
     "i18next": "^23.5.1",
     "next": "14.2.3",
     "next-i18next": "^15.2.0",
