@@ -82,7 +82,8 @@
   "contact": "Get in touch",
   "spotify": {
     "yes": "I'm currently listening to",
-    "no": "I'm currently not listening to anything."
+    "no": "I'm currently not listening to anything.",
+    "by": "от"
   },
   "error": {
     "title": "Whoops! Lost in Space?",
