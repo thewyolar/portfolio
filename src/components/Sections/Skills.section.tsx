@@ -16,14 +16,21 @@ const Skills = () => {
 
   return (
     <div className="my-16 px-3 font-sen text-white" id="skills">
-      <p className="text-3xl font-bold text-white">{t('skills.title')}</p>
+      <div className="flex items-center">
+        <p className="text-3xl font-bold text-white">{t('skills.title')}</p>
+        <div className="flex-grow border-t border-white ml-4"></div>
+      </div>
 
-      <div className="text-md my-8 flex flex-col font-medium md:text-xl custom:text-lg">
+      <div className="text-md my-8 flex font-medium md:text-xl custom:text-lg">
         {data.map((skill: Skill) => (
-          <div key={skill.name} className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
-            <BsArrowRightShort size="30"/>
-            <span className="text-white">{skill.name}</span>
-            &nbsp;{skill.description}
+          <div key={skill.name}
+               className="flex flex-row items-center border-gray-500 py-1 text-slate-300">
+            <span
+              className="border border-lightText rounded-lg me-3 px-3 py-1"
+              key={skill.name}
+            >
+              {skill.name}
+            </span>
           </div>
         ))}
       </div>

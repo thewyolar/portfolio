@@ -15,12 +15,23 @@ const Contact: NextComponentType = () => {
 
   return (
     <div className="px-3 font-sen" id="contact">
-      <p className="text-3xl font-bold text-white">{t('contact')}</p>
+      <div className="flex items-center">
+        <p className="text-3xl font-bold text-white">{t('contact.title')}</p>
+        <div className="flex-grow border-t border-white ml-4"></div>
+      </div>
 
+      <p className="mt-4 text-gray-400">{t('contact.desc')}{' '}
+        <a
+          className="dark:text-white text-black transition-colors duration-500"
+          href={`mailto:${t('contact.email')}`}
+        >
+          {t('contact.email')}
+        </a>
+      </p>
       <div className="my-8 flex flex-row justify-center gap-x-4">
         <Icon
-          icon={<AiOutlineGithub />}
-          url="https://github.com/thewyolar" />
+          icon={<AiOutlineGithub/>}
+          url="https://github.com/thewyolar"/>
 
         <Icon
           icon={<BsTelegram />}

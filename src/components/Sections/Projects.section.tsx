@@ -24,7 +24,12 @@ const Projects: NextComponentType = () => {
 
   return (
     <div className="my-16 px-3 font-sen" id="projects">
-      <p className="text-3xl font-bold text-white">{t('projects.title')}</p>
+      <div className="flex items-center">
+        <p className="text-3xl font-bold text-white">{t('projects.title')}</p>
+        <div className="flex-grow border-t border-white ml-4"></div>
+      </div>
+
+      <p className="mt-4 text-gray-400">{t('projects.desc')}</p>
       <div className="my-8 flex flex-col items-center justify-center gap-5">
         {
           data.map((project) =>

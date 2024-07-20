@@ -15,7 +15,7 @@
     "cv": "My CV"
   },
   "skills": {
-    "title": "Skills & Uses",
+    "title": "My stack",
     "data": [
       {
         "name": "Java",
@@ -41,6 +41,7 @@
   },
   "projects": {
     "title": "Featured Projects",
+    "desc": "Here are some of my favorite projects I've worked on.",
     "data": [
       {
         "title": "ESAP. Backend",
@@ -79,7 +80,11 @@
     ],
     "soon": "Soon"
   },
-  "contact": "Get in touch",
+  "contact": {
+    "title": "Get in touch",
+    "desc": "Shoot me on email:",
+    "email": "thewyolar@gmail.com"
+  },
   "spotify": {
     "yes": "I'm currently listening to",
     "no": "I'm currently not listening to anything.",
