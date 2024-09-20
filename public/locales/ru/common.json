@@ -16,23 +16,8 @@
   },
   "skills": {
     "title": "Мой стек",
-    "data": [
-      {
-        "name": "Java",
-        "description": "в качестве основного языка"
-      },
-      {
-        "name": "Spring",
-        "description": "в качестве фреймворка для бэкенда"
-      },
-      {
-        "name": "PostgreSQL",
-        "description": "в качестве базы данных"
-      },
-      {
-        "name": "Docker",
-        "description": "в качестве инструмента контейнеризации"
-      }
+    "data": [ "Java", "Spring Boot", "Spring Web", "Spring Data JPA", "Spring AI",
+      "PostgreSQL", "Spring Security", "Docker"
     ],
     "more": {
       "common": "...дополнительные навыки также включают",

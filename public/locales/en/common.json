@@ -16,23 +16,8 @@
   },
   "skills": {
     "title": "My stack",
-    "data": [
-      {
-        "name": "Java",
-        "description": "as my main language"
-      },
-      {
-        "name": "Spring",
-        "description": "as my backend framework"
-      },
-      {
-        "name": "PostgreSQL",
-        "description": "as my database"
-      },
-      {
-        "name": "Docker",
-        "description": "as my containerization tool"
-      }
+    "data": [ "Java", "Spring Boot", "Spring Web", "Spring Data JPA", "Spring AI",
+      "PostgreSQL", "Spring Security", "Docker"
     ],
     "more": {
       "common": "...more skills include",
