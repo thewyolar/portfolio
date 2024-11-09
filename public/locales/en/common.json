@@ -9,8 +9,8 @@
   },
   "about": {
     "greetings": "Hi, I'm Alexey",
-    "description1": "Backend developer and student",
-    "description2": "Java and Kotlin developer from Russia with a year of experience.",
+    "description1": "Backend developer",
+    "description2": "Java and Kotlin developer from Russia.",
     "description3": "Currently actively studying Spring and Jetpack Compose.",
     "cv": "My CV"
   },

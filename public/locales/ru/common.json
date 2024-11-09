@@ -9,8 +9,8 @@
   },
   "about": {
     "greetings": "Салют, я Алексей",
-    "description1": "Бэкенд-разработчик и студент",
-    "description2": "Java и Kotlin-разработчик из России с годом опыта.",
+    "description1": "Бэкенд-разработчик",
+    "description2": "Java и Kotlin-разработчик из России.",
     "description3": "В настоящее время активно изучаю Spring и Jetpack Compose.",
     "cv": "Резюме"
   },
