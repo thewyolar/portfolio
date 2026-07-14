@@ -24,7 +24,7 @@
     "react-dom": "18.2.0",
     "react-i18next": "^13.2.2",
     "react-loader-spinner": "^5.4.5",
-    "sass": "^1.67.0",
+    "sass": "^1.101.0",
     "swr": "^2.2.4"
   },
   "devDependencies": {
